@@ -3,7 +3,7 @@ A Docker container for TeamSpeak 3
 
 ## Basic usage
 
-`docker run --name teamspeak -p 9987:9987/udp -p 30033:30033 -p 10011:10011 -p 41144:41144 -t jamesbrink/teamspeak`
+`docker run --name teamspeak -p 9987:9987/udp -p 30033:30033 -p 10011:10011 -p 41144:41144 -t utensilsunion/teamspeak`
 
 Be sure to watch the console output for your privileged admin key
 
