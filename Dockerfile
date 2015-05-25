@@ -24,7 +24,5 @@ EXPOSE 30033
 EXPOSE 10011
 # Default tsdns port (TCP in): 41144
 EXPOSE 41144
-# Default weblist port (UDP out): 2011-2110 (first available port in given range)
-EXPOSE 2015
 
 CMD ["/local/opt/docker-assets/bin/teamspeak.sh"]
